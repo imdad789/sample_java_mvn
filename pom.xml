@@ -48,15 +48,4 @@
             </plugin>
         </plugins>
 </build>
-<plugin>
-    <artifactId>maven-war-plugin</artifactId>
-    <version>3.4.0</version>
-    <configuration>
-        <webResources>
-            <resource>
-                <directory>additional_resources</directory>
-            </resource>
-        </webResources>
-    </configuration>
-</plugin>
 </project>
